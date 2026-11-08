@@ -1,4 +1,10 @@
-#GCE Deployment Instructions
+#GCE Deployment Instructions (Not working requires pre-payment)
+#https://www.youtube.com/watch?v=O8rVd25tw7g&t=2722s
+
+#Notes:
+#Next week try making new gmail and using cap one bank account during GCE account creation
+#Try googling alternative APIs to GCE, deploy with Render, IBM, or Cloudflare
+#Try AWS again without Bootstrap
 
 #Terminal
 #pip install gunicorn
@@ -21,6 +27,13 @@
 #git branch -M main
 #git remote add origin https://github.com/jeffreyfosterworkenvironment/Portfoloio_Website_GCE_http_Bootstrap.git
 #git push -u origin main
+
+#Web
+#https://cloud.google.com/products/compute
+#Try it in console
+#Virtual machines -> VM instances
+#Create instance
+#Name: flask-instance
 
 from flask import Flask, render_template, request, url_for, session, redirect
 from flask_sqlalchemy import SQLAlchemy
